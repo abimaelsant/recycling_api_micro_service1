@@ -1,5 +1,4 @@
 import { Entity, PrimaryGeneratedColumn, Column, CreateDateColumn, OneToMany } from "typeorm";
-import Task from './RecycledProduct';
 
 export type UserRoleType = "collector" | "seller";
 
